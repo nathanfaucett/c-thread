@@ -7,7 +7,15 @@
     "license": "MIT",
     "src": [
         "lib.h",
-        "lib.c"
+        "lib.c",
+        "Condition.c",
+        "Condition.h",
+        "Mutex.c",
+        "Mutex.h",
+        "Thread.c",
+        "Thread.h",
+        "TSS.c",
+        "TSS.h"
     ],
     "dependencies": {
         "nathanfaucett/c-types": "0.0.1",
