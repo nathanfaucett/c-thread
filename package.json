@@ -1,0 +1,16 @@
+{
+    "name": "thread",
+    "version": "0.0.1",
+    "repo": "nathanfaucett/c-thread",
+    "description": "posix and windows threads for c",
+    "keywords": ["types"],
+    "license": "MIT",
+    "src": [
+        "lib.h",
+        "lib.c"
+    ],
+    "dependencies": {
+        "nathanfaucett/c-types": "0.0.1",
+        "nathanfaucett/c-os": "0.0.1"
+    }
+}
