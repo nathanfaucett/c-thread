@@ -2,6 +2,11 @@
 #define __THREAD_C__
 
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 #include "./lib.h"
 
 
@@ -38,6 +43,11 @@ int32 _thread_timespec_get(struct timespec* ts, int32 base) {
 #include "./Condition.c"
 #include "./Thread.c"
 #include "./TSS.c"
+
+
+#ifdef __cplusplus
+}
+#endif
 
 
 #endif

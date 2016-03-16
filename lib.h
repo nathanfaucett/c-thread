@@ -2,6 +2,11 @@
 #define __THREAD_H__
 
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 #include "types/lib.h"
 #include "os/lib.h"
 
@@ -113,6 +118,11 @@
 #include "./Condition.h"
 #include "./Thread.h"
 #include "./TSS.h"
+
+
+#ifdef __cplusplus
+}
+#endif
 
 
 #endif
