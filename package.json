@@ -8,14 +8,14 @@
     "src": [
         "lib.h",
         "lib.c",
-        "Condition.c",
-        "Condition.h",
-        "Mutex.c",
-        "Mutex.h",
-        "Thread.c",
-        "Thread.h",
-        "TSS.c",
-        "TSS.h"
+        "src/Condition.c",
+        "src/Condition.h",
+        "src/Mutex.c",
+        "src/Mutex.h",
+        "src/Thread.c",
+        "src/Thread.h",
+        "src/TSS.c",
+        "src/TSS.h"
     ],
     "dependencies": {
         "nathanfaucett/c-types": "0.0.1",
