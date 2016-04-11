@@ -6,8 +6,8 @@
     "keywords": ["types"],
     "license": "MIT",
     "src": [
-        "lib.h",
-        "lib.c",
+        "src/lib.h",
+        "src/lib.c",
         "src/Condition.c",
         "src/Condition.h",
         "src/Mutex.c",

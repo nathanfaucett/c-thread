@@ -5,7 +5,7 @@ OPT_LVL := -O2
 DEPS = ./deps
 SRC = ./src
 
-C_FLAGS := -ansi -pthread $(OPT_LVL) -I$(DEPS) -I$(SRC) -Wall
+C_FLAGS := -ansi -pthread $(OPT_LVL) -I$(SRC) -I$(DEPS) -Wall
 
 
 all: install build_test run_test
@@ -17,7 +17,7 @@ build_test: build_lib.o
 	$(CC) $(C_FLAGS) ./test/lib.o ./test/main.c -o ./test/main
 
 build_lib.o:
-	$(CC) $(C_FLAGS) -c ./lib.c -o ./test/lib.o
+	$(CC) $(C_FLAGS) -c ./src/lib.c -o ./test/lib.o
 
 install:
 	clib install
