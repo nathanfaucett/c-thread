@@ -114,10 +114,10 @@ extern "C" {
 #endif
 
 
-#include "Mutex.h"
-#include "Condition.h"
-#include "Thread.h"
-#include "TSS.h"
+#include "./Mutex.h"
+#include "./Condition.h"
+#include "./Thread.h"
+#include "./TSS.h"
 
 
 #ifdef __cplusplus

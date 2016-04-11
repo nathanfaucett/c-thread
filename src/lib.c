@@ -7,7 +7,7 @@ extern "C" {
 #endif
 
 
-#include "lib.h"
+#include "./lib.h"
 
 
 #if defined(__THREAD_EMULATE_TIMESPEC_GET__)
@@ -39,10 +39,10 @@ int32 _thread_timespec_get(struct timespec* ts, int32 base) {
 #endif
 
 
-#include "Mutex.c"
-#include "Condition.c"
-#include "Thread.c"
-#include "TSS.c"
+#include "./Mutex.c"
+#include "./Condition.c"
+#include "./Thread.c"
+#include "./TSS.c"
 
 
 #ifdef __cplusplus
